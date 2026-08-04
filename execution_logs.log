@@ -1,0 +1,8 @@
+2026-08-04 15:54:00 | INFO | Pipeline iniciada
+2026-08-04 15:54:00 | INFO | Iniciando primeira atividade
+2026-08-04 15:54:02 | SUCCESS | Primeira atividade finalizada
+2026-08-04 15:54:02 | INFO | Iniciando segunda atividade
+2026-08-04 15:54:04 | SUCCESS | Segunda atividade finalizada
+2026-08-04 15:54:04 | INFO | Iniciando terceira atividade
+2026-08-04 15:54:06 | SUCCESS | Terceira atividade finalizada
+2026-08-04 15:54:06 | SUCCESS | Pipeline finalizada com sucesso!
