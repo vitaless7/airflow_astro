@@ -29,4 +29,4 @@ https://www.astronomer.io/docs/cli/v1.44/get-started-cli#windows-with-winget
 
 ## 📁 Estrutura de Pastas Principal
 * `dags/`: Local onde ficam guardados os scripts Python dos fluxos de dados (DAGs).
-* `execution_logs.log`: Arquivo de registro das execuções do pipeline.
+* `execution_logs.log`: Arquivo de registro das execuções do pipeline.# ETL_Pandas_JSON_Parquet
