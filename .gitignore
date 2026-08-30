@@ -1,0 +1,26 @@
+# Astro / Airflow
+.astro/config.yaml.lock
+airflow_settings.yaml
+logs/
+*.log
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+
+# Segredos
+.env
+*.env

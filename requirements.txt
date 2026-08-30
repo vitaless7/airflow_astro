@@ -1,2 +1,2 @@
 # Add Python packages here, one per line. Pin versions where possible.
-
+requests==2.32.3
