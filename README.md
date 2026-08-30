@@ -11,8 +11,8 @@ Este repositório contém o projeto desenvolvido para o curso de Engenharia, foc
 
 1. **Clonar o repositório:**
    ```bash
-   git clone https://github.com/vitaless7/airflow.git
-   cd airflow
+   git clone https://github.com/vitaless7/airflow_astro.git
+   cd airflow_astro
    ```
 
 2. **Instalar o Astro CLI** (Windows, via winget) —
