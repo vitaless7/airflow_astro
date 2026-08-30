@@ -1,2 +1,2 @@
-# Add Python packages here, one per line. Pin versions where possible.
+# Pacotes Python, um por linha. Fixe a versao sempre que possivel.
 requests==2.32.3

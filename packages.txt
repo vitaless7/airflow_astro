@@ -1,2 +1,1 @@
-# Add OS-level packages here, one per line. Leave blank if none.
-
+# Pacotes de sistema (apt), um por linha. Deixe vazio se nao houver.

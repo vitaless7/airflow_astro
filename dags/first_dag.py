@@ -1,10 +1,8 @@
 """
 ## Minha primeira DAG
 
-Pipeline de estudo com três atividades fictícias, usado para praticar
-dependências entre tasks.
-
-A primeira atividade é upstream das outras duas, que rodam em paralelo:
+Pipeline de estudo com três atividades fictícias, para praticar dependências
+entre tasks. A primeira é upstream das outras duas, que rodam em paralelo:
 
     primeira ──┬── segunda
                └── terceira
