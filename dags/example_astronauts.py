@@ -46,8 +46,10 @@ def example_astronauts():
             r.raise_for_status()
             number_of_people_in_space = r.json()["number"]
             list_of_people_in_space = r.json()["people"]
-        except:
-            print("API indisponível, usando dados fixos.")
+        # Captura só falhas de rede e resposta malformada. Um `except:` nu
+        # engoliria KeyboardInterrupt/SystemExit e mascararia erros reais.
+        except (requests.RequestException, ValueError, KeyError) as e:
+            print(f"API indisponível ({e}), usando dados fixos.")
             number_of_people_in_space = 12
             list_of_people_in_space = [
                 {"craft": "ISS", "name": "Marco Alain Sieber"},
