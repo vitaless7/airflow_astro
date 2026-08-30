@@ -42,7 +42,8 @@ def example_astronauts():
         A contagem vai para o XCom; a lista é o retorno usado pela próxima task.
         """
         try:
-            r = requests.get("http://api.open-notify.org/astros.json")
+            # timeout evita que a task fique pendurada se a API nao responder
+            r = requests.get("http://api.open-notify.org/astros.json", timeout=10)
             r.raise_for_status()
             number_of_people_in_space = r.json()["number"]
             list_of_people_in_space = r.json()["people"]
